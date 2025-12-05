@@ -61,7 +61,7 @@ def main(args):
     if hasattr(args, "log_file") and args.log_file:
         import os
         base, ext = os.path.splitext(args.log_file)
-        args.log_file = f"{base}_base_1_decode{ext}"
+        args.log_file = f"{base}_base_decode{ext}"
 
     utils.init_logging(args)
 
